@@ -1,6 +1,5 @@
 /*
- *  Node.js test runner for running data-*.js tests with Rhino's interpreter
- *  running in es6 mode (a.k.a.: -version 200).
+ *  Node.js test runner for running data-*.js tests with Rhino's interpreter (use rhino-all.jar distribution).
  * 
  *  If the environment variable JAVA_HOME is defined it will use it to
  *  construct the path to 'java' as $JAVA_HOME/bin/java
