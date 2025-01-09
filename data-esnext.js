@@ -956,6 +956,7 @@ exports.tests = [
   res: {
     chrome129: false,
     firefox115: false,
+    rhino1_8_0: false,
   }
 },
 {
@@ -982,6 +983,7 @@ exports.tests = [
           note_html: 'The feature has to be enabled via <code>javascript.options.experimental.uint8array_base64</code> setting under <code>about:config</code>.'
         },
         firefox133: true,
+        rhino1_8_0: false,
       }
     },
     {
@@ -1003,6 +1005,7 @@ exports.tests = [
           note_id: 'ff-uint8-hex-base64',
         },
         firefox133: true,
+        rhino1_8_0: false,
 
       }
     },
@@ -1026,6 +1029,7 @@ exports.tests = [
           note_id: 'ff-uint8-hex-base64',
         },
         firefox133: true,
+        rhino1_8_0: false,
       }
     },
     {
@@ -1045,6 +1049,7 @@ exports.tests = [
           note_id: 'ff-uint8-hex-base64',
         },
         firefox133: true,
+        rhino1_8_0: false,
       }
     },
     {
@@ -1066,6 +1071,7 @@ exports.tests = [
           note_id: 'ff-uint8-hex-base64',
         },
         firefox133: true,
+        rhino1_8_0: false,
       }
     },
         {
@@ -1088,6 +1094,7 @@ exports.tests = [
           note_id: 'ff-uint8-hex-base64',
         },
         firefox133: true,
+        rhino1_8_0: false,
       }
     },
 

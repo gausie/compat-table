@@ -31,7 +31,7 @@ if (process.env.JAVA_HOME) {
 }
 
 function executeScript(scriptName) {
-    return child_process.execFileSync(javaCommand, ['-jar', 'rhino.jar', '-version', '200', scriptName], {
+    return child_process.execFileSync(javaCommand, ['-jar', 'rhino.jar', scriptName], {
         encoding: 'utf-8'
     });
 }
