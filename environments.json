@@ -5039,7 +5039,7 @@
     "family": "Rhino",
     "platformtype": "engine",
     "release": "2025-01-03",
-    "obsolete": true
+    "obsolete": false
   },
   "besen": {
     "full": "Bero's EcmaScript Engine (version 1.0.0.489)",
